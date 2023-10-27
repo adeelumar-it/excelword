@@ -47,7 +47,7 @@ app.controller('edgelegalctrl', function ($scope, $mdDialog, $mdToast, $log, $lo
 
             } else {
                 $scope.ShowMainDiv = false;
-                $scoe.wordMainDiv = true;
+                $scope.wordMainDiv = true;
 
                 ProgressLinearInActive();
 
