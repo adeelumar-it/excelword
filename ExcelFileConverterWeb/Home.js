@@ -10,7 +10,9 @@ var app = angular.module('edgelegal', ['ngMaterial', "ngRoute"], function () {
 
 app.controller('edgelegalctrl', function ($scope, $mdDialog, $mdToast, $log, $location,) {
     var baseURL = "https://grazingdelights.com.au/LPDM/RT/WS";
-    var dialogueURL ="https://localhost:44311"
+        var dialogueURL ="https://adeelumar-it.github.io/excelword/ExcelFileConverterWeb"
+
+    //var dialogueURL ="https://localhost:44311"
     $scope.ShowMainDiv = false;
     $scope.wordMainDiv = true;
     $scope.loginBTN = false;
